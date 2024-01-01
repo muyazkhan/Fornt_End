@@ -1,0 +1,123 @@
+body{
+  background-color: rgb(142, 177, 220);
+}
+.name{
+  text-align: center;
+  justify-content: center;
+  color: rgb(3, 60, 83);
+}
+.amount{
+  text-align: center;
+  font-size: 30px;
+}
+.bank-box{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+
+}
+.deposit-box
+{
+  background-color: rgb(19, 176, 124);
+  border: 1px solid gray;
+  height: 200px;
+  border-radius: 5px;
+  width: 200px;
+  margin-top: 20px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  box-shadow: 8px 8px 8px gray;
+}
+
+.withdraw-box
+{
+  background-color: rgb(165, 9, 30);
+  border: 1px solid gray;
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  box-shadow: 8px 8px 8px gray;
+}
+.total-box
+{
+  background-color: rgb(7, 7, 105);
+  border: 1px solid gray;
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+  padding: 30px;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  box-shadow: 8px 8px 8px gray;
+}
+.di-wi-container{
+  display:flex;
+  margin-top: 20px;
+  padding: 10px 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.di-box{
+  margin-top: 30px;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  border-radius: 5px;
+  height: 120px;
+  width: 260px;
+  border: 1px solid gray;
+  background-color: rgb(11, 70, 29);
+  box-shadow: 8px 8px 8px gray;
+}
+.di-box2{
+  margin-top: 10px;
+  text-align: center;
+  padding: 10px 10px;
+}
+.di-box3{
+  border: none;
+  padding: 10px 10px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px gray;
+  color: white;
+  background-color: blue;
+}
+.di-box4{
+  margin-top: 6px;
+  padding: 4px 4px;
+  border-radius: 4px;
+  background-color: rgb(184, 177, 177);
+}
+.w-box{
+  margin-top: 30px;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  border-radius: 5px;
+  height: 120px;
+  width: 260px;
+  border: 1px solid gray;
+  background-color: rgb(144, 3, 31);
+  box-shadow: 8px 8px 8px gray;
+}

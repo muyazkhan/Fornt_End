@@ -1,0 +1,58 @@
+.navbar {
+  background-color: #1a187a;
+  /* padding: 2px 2px 2px 2px; */
+}
+.navbar-brand {
+  padding-left: 40px;
+}
+.search-bar {
+  position: relative;
+}
+.search-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+
+.btn-slider {
+  background: #ff136f;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+}
+.slider {
+  background: rgb(250, 221, 249);
+  background: linear-gradient(
+    111deg,
+    rgba(250, 221, 249, 1) 0%,
+    rgba(42, 46, 157, 1) 74%
+  );
+}
+.shop-now {
+  background-color: #171495;
+  padding: 10px;
+  color: white;
+}
+
+.custom-section {
+  background: #887ccd;
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+.service{
+list-style: none;
+color: #CFCFCF;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 32px; 
+align-self: stretch;/* 228.571% */
+}
+@media only screen and (max-width: 480px) {
+  .custom-mac-air {
+    flex-direction: row-reverse;
+  }
+}

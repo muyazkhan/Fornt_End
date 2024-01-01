@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css" />
+  </head>
+
+  <body>
+    <div class="name">
+      <h1>
+        <b><i>Banking System</i></b>
+      </h1>
+    </div>
+    <div class="bank-box">
+      <div class="deposit-box">
+        <div>
+          <div class="amount"><h1 id="deposit_amount">00</h1></div>
+          <p >Deposit Amount</p>
+        </div>
+      </div>
+      <div class="withdraw-box">
+        <div>
+          <div class="amount"><h1 id="withdraw_amount">00</h1></div>
+          <p>withdraw Amount</p>
+        </div>
+      </div>
+      <div class="total-box">
+        <div>
+          <div class="amount"><h1 id="total_amount">00</h1></div>
+          <p>Total Amount</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="di-wi-container">
+      <div class="di-box">
+        <input id="deposit"  class="di-box4" type="number" />
+        <br />
+        <div class="di-box2">
+          <button onclick="h_deposit()" class="di-box3">
+            <b><i>Deposit</i></b>
+          </button>
+        </div>
+      </div>
+
+      <div class="w-box">
+        <input id="withdraw" class="di-box4" type="number" />
+        <br />
+        <div class="di-box2">
+          <button onclick="h_withdraw()" class="di-box3">
+            <b><i>withdraw</i></b>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./project.js"></script>
+  </body>
+</html>
